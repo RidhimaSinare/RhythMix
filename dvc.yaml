@@ -1,0 +1,10 @@
+stages:
+  get_data:
+    cmd: python src/get_data.py --config=params.yaml
+    deps:
+    - src/get_data.py
+    - data/processed/allsong_data.csv
+    - data/processed/complete_feature.csv
+  
+
+  
