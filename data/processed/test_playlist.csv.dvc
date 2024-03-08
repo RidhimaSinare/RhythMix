@@ -1,0 +1,4 @@
+outs:
+- md5: b99705cccd95c1bc82382035ffe862b5
+  size: 5429
+  path: test_playlist.csv
