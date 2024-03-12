@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  get_data:
+    cmd: python src/get_data.py --config=params.yaml
+    deps:
+    - path: data/processed/allsong_data.csv
+      md5: 30ee604b7baa3b284212eb22f51d10f7
+      size: 8484512
+    - path: data/processed/complete_feature.csv
+      md5: 51f7b30a67e643ac09adc59566ce8f42
+      size: 6629345
+    - path: src/get_data.py
+      md5: 80828a13fa2615d61d526e0a8edb095c
+      size: 863

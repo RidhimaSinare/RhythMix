@@ -3,3 +3,4 @@ dvc[gdrive]
 pandas
 numpy
 scikit-learn
+spotipy

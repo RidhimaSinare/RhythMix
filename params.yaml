@@ -17,3 +17,6 @@ model_dir: saved_models
 #reports
 
 #webapp_model_dir
+
+#playlist URL
+playlist_url: "https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M"
