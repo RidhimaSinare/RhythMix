@@ -62,10 +62,10 @@ def get_features(config_path):
 
 
 
-
 if __name__=="__main__":
     args = argparse.ArgumentParser()
     args.add_argument("--config",default="params.yaml")
     parsed_args = args.parse_args()
     features = get_features(config_path = parsed_args.config)
+    features.to_csv('data/processed/final_features.csv')
     print(features)

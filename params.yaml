@@ -6,6 +6,7 @@ base:
 data_source:
   s3_source: data/processed/allsong_data.csv
   feature_source: data/processed/complete_feature.csv
+  final_features: data/processed/final_features.csv
 
 split_data:
   test_path: data/processed/test_playlist.csv
