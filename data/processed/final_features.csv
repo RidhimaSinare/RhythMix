@@ -1,6 +1,96 @@
 ,id,title,first_artist,all_artists,danceability,energy,key,loudness,mode,acousticness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature
-0,4FCNizKAqQ0JDx9ZWDEt1Z,Can't Help Falling in Love,Kacey Musgraves,['Kacey Musgraves'],0.317,0.15,9,-17.433,1,0.951,9.28e-05,0.113,0.228,45.306,168267,3
-1,6lfxq3CG4xtTiEg7opyCyx,Can't Help Falling In Love,Kina Grannis,['Kina Grannis'],0.266,0.0596,0,-18.515,1,0.905,7.07e-05,0.132,0.143,181.74,201933,3
-2,6yIHGmQLJxWAUZ1ZkENemN,Can't Help Falling in Love,Haley Reinhart,['Haley Reinhart'],0.41,0.0485,0,-13.918,1,0.947,0.0,0.108,0.247,137.97,173175,4
-3,7vyLcCRQZAzl21WElrh984,Can't Help Falling in Love,Emma Heesters,['Emma Heesters'],0.404,0.152,0,-9.445,1,0.929,0.0,0.0968,0.348,86.121,134000,3
-4,44AyOl4qVkzS48vBsbNXaC,Can't Help Falling in Love,Elvis Presley,['Elvis Presley'],0.396,0.293,2,-14.062,1,0.941,0.000196,0.105,0.343,100.307,182360,3
+0,3NgCzSW98SsqBdpYcnm4kv,I Have Questions,Camila Cabello,['Camila Cabello'],0.393,0.555,10,-6.096,0,0.405,0.0,0.105,0.22,167.999,221881,4
+1,2afCBiru10AFckfOa49wIa,You & I,One Direction,['One Direction'],0.574,0.329,1,-6.829,1,0.22,0.0,0.0986,0.356,130.993,237933,4
+2,1almCHdsfikRPfVB9VrEdT,Little Do You Know,Alex & Sierra,['Alex & Sierra'],0.5,0.292,0,-8.554,1,0.746,0.0,0.188,0.37,145.879,185200,4
+3,1ZWLWVqeEMWMKTlteS0yLH,Love You Goodbye,One Direction,['One Direction'],0.546,0.657,1,-4.787,1,0.0928,0.0,0.119,0.361,133.188,196933,4
+4,5ELRkzdzz0HvGpMDlfZHkV,Sign of the Times,Harry Styles,['Harry Styles'],0.518,0.575,5,-4.616,1,0.0259,0.0,0.109,0.209,120.019,340707,4
+5,0QZ5yyl6B6utIWkxeBDxQN,The Night We Met,Lord Huron,['Lord Huron'],0.545,0.366,2,-9.51,1,0.969,0.267,0.641,0.1,86.997,208212,3
+6,1X6kxrjWVWiKMqulM8XZpj,Over And Over Again,Nathan Sykes,"['Nathan Sykes', 'Ariana Grande']",0.47,0.271,8,-8.335,1,0.962,0.0,0.106,0.388,129.623,246896,4
+7,06KyNuuMOX1ROXRhj787tj,We Don't Talk Anymore (feat. Selena Gomez),Charlie Puth,"['Charlie Puth', 'Selena Gomez']",0.728,0.563,1,-8.053,0,0.621,0.0,0.179,0.352,100.017,217707,4
+8,2MsNSKQNQNRklkKFxxvIav,9 and Three Quarters (Run Away),TOMORROW X TOGETHER,['TOMORROW X TOGETHER'],0.639,0.756,1,-4.42,1,0.0055,0.0,0.13,0.532,128.937,211867,4
+9,39EXZNMxb4RBHlRjnRaOKp,Sweet Night,V,['V'],0.462,0.339,3,-7.943,1,0.495,8.15e-06,0.0893,0.149,92.106,214259,4
+10,3i9UVldZOE0aD0JnyfAZZ0,Lover (Remix) [feat. Shawn Mendes],Taylor Swift,"['Taylor Swift', 'Shawn Mendes']",0.448,0.603,7,-7.176,1,0.433,0.0,0.0862,0.422,205.272,221307,3
+11,6HjF1gzVEZMb4GplnGl9B3,"10,000 Hours (with Justin Bieber) - Piano",Dan + Shay,"['Dan + Shay', 'Justin Bieber']",0.426,0.366,10,-6.514,1,0.765,0.0,0.117,0.386,179.736,172320,4
+12,3uhBIQ7tv8j1FME8cFGEfG,All of Me,John Legend,['John Legend'],0.422,0.264,8,-7.064,1,0.922,0.0,0.132,0.331,119.93,269560,4
+13,34gCuhDGsG4bRPIf9bb02f,Thinking out Loud,Ed Sheeran,['Ed Sheeran'],0.781,0.445,2,-6.061,1,0.474,0.0,0.184,0.591,78.998,281560,4
+14,2P91MQbaiQOfbiz9VqhqKQ,I Like Me Better,Lauv,['Lauv'],0.752,0.505,9,-7.621,1,0.535,2.55e-06,0.104,0.419,91.97,197437,4
+15,4vjpLMyL3ZO6aphdYr8XYw,i'm so tired...,Lauv,"['Lauv', 'Troye Sivan']",0.576,0.736,11,-7.572,1,0.178,0.0,0.238,0.484,101.928,162587,4
+16,17ejRbr6B8l9zdqgCZsn4m,Nobody Compares To You (feat. Katie Pearlman),Gryffin,"['Gryffin', 'Katie Pearlman']",0.59,0.764,2,-4.735,1,0.229,0.0,0.192,0.331,104.911,231291,4
+17,1i1fxkWeaMmKEB4T7zqbzK,Don't Let Me Down,The Chainsmokers,"['The Chainsmokers', 'Daya']",0.532,0.869,11,-5.094,1,0.157,0.00508,0.136,0.422,159.803,208373,4
+18,4saklk6nie3yiGePpBwUoc,Dynamite,BTS,['BTS'],0.746,0.765,6,-4.41,0,0.0112,0.0,0.0936,0.737,114.044,199054,4
+19,0lx2cLdOt3piJbcaXIV74f,willow,Taylor Swift,['Taylor Swift'],0.392,0.574,7,-9.195,1,0.833,0.00179,0.145,0.529,81.112,214707,4
+20,5BK0uqwY9DNfZ630STAEaq,gold rush,Taylor Swift,['Taylor Swift'],0.512,0.462,9,-10.491,1,0.83,0.166,0.121,0.353,112.05,185320,4
+21,35mvY5S1H3J2QZyna3TFe0,positions,Ariana Grande,['Ariana Grande'],0.737,0.802,0,-4.771,1,0.468,0.0,0.0931,0.682,144.015,172325,4
+22,5KCbr5ndeby4y4ggthdiAb,Wonder,Shawn Mendes,['Shawn Mendes'],0.333,0.637,1,-4.904,0,0.131,1.8e-05,0.149,0.132,139.898,172693,4
+23,5rFj8OzffT0iggSjcBaeND,"Fire On Fire - From ""Watership Down""",Sam Smith,['Sam Smith'],0.584,0.407,1,-7.356,0,0.476,0.0,0.18,0.341,115.124,246735,4
+24,6QPKYGnAW9QozVz2dSWqRg,Someone Like You,Adele,['Adele'],0.554,0.321,9,-8.251,1,0.893,0.0,0.0996,0.288,135.047,285240,4
+25,0VpEX8ib3wE7u8NOw4szU6,Eyes Off You,PRETTYMUCH,['PRETTYMUCH'],0.631,0.512,0,-9.675,0,0.511,0.0,0.0827,0.529,106.027,204267,4
+26,3NLnwwAQbbFKcEcV8hDItk,Perfect,One Direction,['One Direction'],0.647,0.823,2,-5.231,1,0.0598,0.0,0.119,0.396,99.933,230333,4
+27,0tgVpDi06FyKpA1z0VMD4v,Perfect,Ed Sheeran,['Ed Sheeran'],0.599,0.448,8,-6.312,1,0.163,0.0,0.106,0.168,95.05,263400,3
+28,4HBZA5flZLE435QTztThqH,Stuck with U (with Justin Bieber),Ariana Grande,"['Ariana Grande', 'Justin Bieber']",0.597,0.45,8,-6.658,1,0.223,0.0,0.382,0.537,178.765,228482,3
+29,1BxfuPKGuaTgP7aM0Bbdwr,Cruel Summer,Taylor Swift,['Taylor Swift'],0.552,0.702,9,-5.707,1,0.117,2.06e-05,0.105,0.564,169.994,178427,4
+30,0E4Y1XIbs8GrAT1YqVy6dq,Afterglow,Ed Sheeran,['Ed Sheeran'],0.641,0.324,11,-5.851,1,0.698,0.0,0.328,0.273,110.184,185487,4
+31,1POlsQls16ppLPVmr4FGLt,Stay With Me,CHANYEOL,"['CHANYEOL', 'Punch']",0.314,0.526,0,-4.686,0,0.428,0.0,0.126,0.195,78.643,192441,5
+32,7hDVYcQq6MxkdJGweuCtl9,ocean eyes,Billie Eilish,['Billie Eilish'],0.511,0.363,4,-7.65,0,0.816,0.0317,0.084,0.169,144.892,200379,4
+33,1SJtlNRJDeYHioymcvsqev,Crying in the Club,Camila Cabello,['Camila Cabello'],0.334,0.617,6,-5.834,0,0.334,0.0,0.163,0.603,85.227,216391,4
+34,2rPE9A1vEgShuZxxzR2tZH,"thank u, next",Ariana Grande,['Ariana Grande'],0.724,0.647,1,-5.642,1,0.28,0.0,0.102,0.435,106.96,207333,4
+35,0TK2YIli7K1leLovkQiNik,Señorita,Shawn Mendes,"['Shawn Mendes', 'Camila Cabello']",0.759,0.54,9,-6.039,0,0.037,0.0,0.0945,0.75,116.947,190960,4
+36,04ZTP5KsCypmtCmQg5tH9R,I'm a Mess,Bebe Rexha,['Bebe Rexha'],0.63,0.694,11,-6.257,0,0.00281,0.0,0.0719,0.216,97.005,195519,4
+37,4y3OI86AEP6PQoDE6olYhO,Sucker,Jonas Brothers,['Jonas Brothers'],0.842,0.734,1,-5.065,0,0.0427,0.0,0.106,0.952,137.958,181040,4
+38,2b8fOow8UzyDFAE27YhOZM,Memories,Maroon 5,['Maroon 5'],0.764,0.32,11,-7.209,1,0.837,0.0,0.0822,0.575,91.019,189486,4
+39,2QZ7WLBE8h2y1Y5Fb8RYbH,In My Blood,Shawn Mendes,['Shawn Mendes'],0.622,0.712,5,-7.321,1,0.0573,0.0,0.13,0.487,140.025,211360,4
+40,7ju97lgwC2rKQ6wwsf9no9,Rain On Me (with Ariana Grande),Lady Gaga,"['Lady Gaga', 'Ariana Grande']",0.672,0.855,9,-3.764,1,0.021,0.0,0.323,0.646,123.056,182200,4
+41,3HVWdVOQ0ZA45FuZGSfvns,I Don't Care (with Justin Bieber),Ed Sheeran & Justin Bieber,"['Ed Sheeran & Justin Bieber', 'Justin Bieber']",0.798,0.675,6,-5.041,1,0.0912,0.0,0.0894,0.842,101.956,219947,4
+42,2Fxmhks0bxGSBdJ92vM42m,bad guy,Billie Eilish,['Billie Eilish'],0.701,0.425,7,-10.965,1,0.328,0.13,0.1,0.562,135.128,194088,4
+43,23L5CiUhw2jV1OIMwthR3S,In the Name of Love,Martin Garrix,"['Martin Garrix', 'Bebe Rexha']",0.501,0.519,4,-5.88,0,0.109,0.0,0.454,0.168,133.99,195707,4
+44,1dLXLETYiZohIZWnse4ypG,Better,ZAYN,['ZAYN'],0.637,0.418,2,-7.137,1,0.353,0.0,0.131,0.0807,84.295,174517,4
+45,44gz3bzhdcGUFgA5oc1wSu,Holiday,Little Mix,['Little Mix'],0.712,0.676,5,-5.965,1,0.076,0.0,0.0669,0.648,106.156,213597,4
+46,1e9oZCCiX42nJl0AcqriVo,Watermelon Sugar,Harry Styles,['Harry Styles'],0.548,0.816,0,-4.209,1,0.122,0.0,0.335,0.557,95.39,174000,4
+47,0PDUDa38GO8lMxLCRc4lL1,PILLOWTALK,ZAYN,['ZAYN'],0.584,0.7,11,-4.275,1,0.117,0.0,0.0939,0.438,124.944,202747,4
+48,3e7sxremeOE3wTySiOhGiP,Dusk Till Dawn (feat. Sia) - Radio Edit,ZAYN,"['ZAYN', 'Sia']",0.259,0.437,11,-6.589,0,0.102,1.32e-06,0.106,0.0951,180.042,239000,4
+49,3Z0oQ8r78OUaHvGPiDBR3W,Into the Unknown,Idina Menzel,"['Idina Menzel', 'AURORA']",0.323,0.405,10,-8.533,0,0.849,0.000544,0.138,0.274,145.104,194848,5
+50,4U9CF27YlwHRtUGKUzhUTT,A Whole New World (End Title),ZAYN,"['ZAYN', 'Zhavia']",0.302,0.414,2,-8.16,1,0.0575,0.0,0.0861,0.105,110.508,242956,4
+51,0qcr5FMsEO85NAQjrlDRKo,"Let It Go - From ""Frozen""/Soundtrack Version",Idina Menzel,['Idina Menzel'],0.543,0.485,8,-6.85,1,0.558,0.0,0.12,0.371,136.961,223840,4
+52,3zHq9ouUJQFQRf3cm1rRLu,"Love Me Like You Do - From ""Fifty Shades Of Grey""",Ellie Goulding,['Ellie Goulding'],0.262,0.606,8,-6.646,1,0.247,0.0,0.125,0.275,189.857,252534,4
+53,7BqBn9nzAq8spo5e7cZ0dJ,Just the Way You Are,Bruno Mars,['Bruno Mars'],0.635,0.841,5,-5.379,1,0.0134,0.0,0.0622,0.424,109.021,220734,4
+54,3oEHQmhvFLiE7ZYES0ulzv,"My Heart Will Go On - Love Theme from ""Titanic""",Céline Dion,['Céline Dion'],0.428,0.276,4,-11.729,1,0.732,5.33e-06,0.117,0.0382,99.195,280000,1
+55,1T5ahQYAt2DVCPKmzFMq4c,Season of Love,Shiny Toy Guns,['Shiny Toy Guns'],0.273,0.65,2,-8.571,1,0.339,0.00381,0.189,0.138,87.214,185840,5
+56,5T7ZFtCcOgkpjxcuaeZbw0,Best Song Ever,One Direction,['One Direction'],0.652,0.877,1,-2.986,1,0.0227,0.0,0.0789,0.486,118.491,200107,4
+57,72C7aUQECOhNtnD0AC36ua,They Don't Know About Us,One Direction,['One Direction'],0.512,0.754,0,-6.031,1,0.135,0.0,0.0881,0.336,147.89,201693,4
+58,6N5xh0tYYLTQRiCCaNbAUt,Infinity,One Direction,['One Direction'],0.537,0.705,4,-6.073,1,0.0687,0.0,0.0842,0.32,131.965,249480,4
+59,3JbSLr2OhsivV46whJyGeb,End Game,Taylor Swift,"['Taylor Swift', 'Ed Sheeran', 'Future']",0.649,0.589,2,-6.237,1,0.00845,0.0,0.108,0.151,159.073,244827,4
+60,4hQ6UGyWQIGJmHSo0J88JW,Back To You - From 13 Reasons Why – Season 2 Soundtrack,Selena Gomez,['Selena Gomez'],0.601,0.724,6,-4.856,1,0.0945,1.68e-06,0.12,0.508,102.061,207905,4
+61,3fVnlF4pGqWI9flVENcT28,Wildest Dreams,Taylor Swift,['Taylor Swift'],0.553,0.664,8,-7.417,1,0.0709,0.0056,0.106,0.467,140.06,220440,4
+62,6KHL1En9v6iNWjcs44mcmU,Secret Love Song (feat. Jason Derulo),Little Mix,"['Little Mix', 'Jason Derulo']",0.529,0.614,9,-5.032,1,0.215,0.0,0.277,0.141,92.972,249810,4
+63,1u8c2t2Cy7UBoG4ArRcF5g,Blank Space,Taylor Swift,['Taylor Swift'],0.76,0.703,5,-5.412,1,0.103,0.0,0.0913,0.57,95.997,231827,4
+64,2bT1PH7Cw3J9p3t7nlXCdh,If I Can't Have You,Shawn Mendes,['Shawn Mendes'],0.691,0.823,2,-4.197,1,0.487,0.0,0.134,0.87,123.935,191467,4
+65,3WXvr6rwl4I8U3ancJ08Yy,"Shayad (Aaj Kal) - From ""Love Aaj Kal""",Pritam,"['Pritam', 'Arijit Singh']",0.531,0.785,5,-7.11,0,0.258,0.000157,0.11,0.295,135.831,220588,4
+66,31qCy5ZaophVA81wtlwLc4,Anyone,Justin Bieber,['Justin Bieber'],0.686,0.538,2,-8.026,1,0.181,3.13e-06,0.113,0.584,115.884,190779,4
+67,1p6rk9R8SCum97WnvGNt6O,I Love You Always Forever,Betty Who,['Betty Who'],0.532,0.613,0,-7.64,1,0.326,0.0,0.292,0.493,106.081,222957,4
+68,7lPN2DXiMsVn7XUKtOW1CS,drivers license,Olivia Rodrigo,['Olivia Rodrigo'],0.585,0.436,10,-8.761,1,0.721,1.31e-05,0.105,0.132,143.874,242014,4
+69,64r6z0P3RnhpTGdkA7p5Os,Ek Tarfa,Darshan Raval,['Darshan Raval'],0.48,0.615,2,-6.006,0,0.547,0.0,0.139,0.33,79.948,234375,4
+70,1jSSWmTvgdHcXEStuyl0kB,,,[''],0.581,0.555,10,-8.475,1,0.561,3.26e-05,0.0957,0.491,117.965,311186,4
+71,3cn6cFQYrUBkKOX8kQ6oiN,FAKE LOVE (Rocking Vibe Mix),BTS,['BTS'],0.463,0.804,2,-4.009,0,0.0573,0.0,0.432,0.352,154.913,238494,4
+72,4U99WOfxSTVyVwv1PD32jF,Dil Ke Dastakk,Harshvardhan Singh,"['Harshvardhan Singh', 'Karthik Rao', 'Shilpa Surroch']",0.627,0.311,7,-14.449,0,0.822,0.0,0.148,0.329,110.018,182182,4
+73,1iifBZFQbZlO1BbeaO3KGi,Tempo,EXO,['EXO'],0.686,0.842,0,-4.423,1,0.237,0.0,0.0683,0.519,115.944,224483,4
+74,6lanRgr6wXibZr8KgzXxBl,a thousand years,Christina Perri,['Christina Perri'],0.421,0.407,10,-7.445,1,0.309,0.000961,0.11,0.161,139.028,285120,3
+75,3zLCX1TGMpsA67cW2pq6ut,永遠に光れ (Everlasting Shine),TOMORROW X TOGETHER,['TOMORROW X TOGETHER'],0.527,0.891,7,-1.511,0,0.119,0.0,0.208,0.39,127.097,191147,4
+76,5Dz8nrwQlPLE68WaTEIqY5,"Beginning Middle End - From The Netflix Film ""To All The Boys: Always and Forever""",Leah Nobel,['Leah Nobel'],0.674,0.676,2,-6.878,1,0.43,3.13e-05,0.108,0.919,78.99,194827,4
+77,12x0zQ2X70OVWsM5X4pg2z,About Love - From The Netflix Film “To All The Boys: P.S. I Still Love You”,MARINA,['MARINA'],0.636,0.782,0,-5.489,1,0.316,6.36e-06,0.15,0.257,96.941,214040,4
+78,2nC3QhMI9reBIOWutbU3Tj,Moral of the Story,Ashe,['Ashe'],0.572,0.406,10,-8.624,1,0.587,4.48e-06,0.102,0.265,119.812,201084,4
+79,7LVHVU3tWfcxj5aiPFEW4Q,Fix You,Coldplay,['Coldplay'],0.209,0.417,3,-8.74,1,0.164,0.00196,0.113,0.124,138.178,295533,4
+80,2BgEsaKNfHUdlh97KmvFyo,2002,Anne-Marie,['Anne-Marie'],0.697,0.683,1,-2.881,0,0.0372,0.0,0.137,0.603,96.133,186987,4
+81,1HNkqx9Ahdgi1Ixy2xkKkL,Photograph,Ed Sheeran,['Ed Sheeran'],0.614,0.379,4,-10.48,1,0.607,0.000464,0.0986,0.201,107.989,258987,4
+82,3Z1kZKYfRC8iRXnYeC5sCJ,Everything Has Changed,Taylor Swift,"['Taylor Swift', 'Ed Sheeran']",0.624,0.458,6,-6.755,1,0.36,3.89e-06,0.311,0.436,80.016,245413,4
+83,3H5vI95mzDFTZreWQmJMWi,,,[''],0.613,0.237,10,-13.978,1,0.89,1.53e-05,0.112,0.483,117.972,152268,4
+84,1Z8TPHiKeCUyClxV6WTTIf,0X1=LOVESONG (I Know I Love You) feat. Seori,TOMORROW X TOGETHER,"['TOMORROW X TOGETHER', 'Seori']",0.584,0.836,0,-4.925,1,0.0558,0.0,0.0663,0.484,104.973,202204,4
+85,3MxJGBnYaP4yQYUv90HLqZ,Moments,One Direction,['One Direction'],0.474,0.739,2,-4.937,1,0.0283,0.0,0.299,0.253,149.894,262640,4
+86,5omYVLodGmaxnhua99xIE8,A.M.,One Direction,['One Direction'],0.586,0.527,3,-4.905,1,0.227,0.0,0.0963,0.506,141.839,209040,4
+87,0UAB340gAcSMk3r0a8PTag,More Than This,One Direction,['One Direction'],0.498,0.715,0,-4.446,1,0.0607,0.0,0.274,0.225,151.809,229107,4
+88,1bhUWB0zJMIKr9yVPrkEuI,Perfect Duet (Ed Sheeran & Beyoncé),Ed Sheeran,"['Ed Sheeran', 'Beyoncé']",0.587,0.299,8,-7.365,1,0.779,0.0,0.123,0.356,94.992,259550,3
+89,6yIdwnpDHufLWgQcveTPMk,I Don’t Wanna Live Forever (Fifty Shades Darker),ZAYN,"['ZAYN', 'Taylor Swift']",0.735,0.451,0,-8.374,1,0.0631,1.3e-05,0.325,0.0862,117.973,245200,4
+90,2pUpNOgJBIBCcjyQZQ00qU,Let Her Go,Passenger,['Passenger'],0.445,0.541,7,-7.36,1,0.359,0.0,0.109,0.217,76.289,252733,4
+91,7gJtmLyPTwKzhGzMBXtuXH,Red,Taylor Swift,['Taylor Swift'],0.602,0.896,1,-4.267,0,0.0773,8.87e-05,0.0911,0.641,124.978,223093,4
+92,3T03rPwlL8NVk1yIaxeD8U,Off My Face,Justin Bieber,['Justin Bieber'],0.509,0.228,4,-8.68,1,0.92,0.0,0.104,0.586,90.674,156468,4
+93,463CkQjx2Zk1yXoBuierM9,Levitating (feat. DaBaby),Dua Lipa,"['Dua Lipa', 'DaBaby']",0.702,0.825,6,-3.787,0,0.00883,0.0,0.0674,0.915,102.977,203064,4
+94,2cEmWBBlCfR9wWrY9JmTyt,Let Me,ZAYN,['ZAYN'],0.46,0.566,9,-5.637,1,0.239,5.96e-06,0.0967,0.189,168.408,185373,4
