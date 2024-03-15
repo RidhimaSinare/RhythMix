@@ -4,8 +4,9 @@ stages:
     cmd: python src/get_data.py --config=params.yaml
     deps:
     - path: data/processed/allsong_data.csv
-      md5: 30ee604b7baa3b284212eb22f51d10f7
-      size: 8484512
+      hash: md5
+      md5: d9b239ac8dc029ff25b5c004bf777050
+      size: 15991708
     - path: data/processed/complete_feature.csv
       hash: md5
       md5: 51f7b30a67e643ac09adc59566ce8f42
@@ -13,3 +14,38 @@ stages:
     - path: src/get_data.py
       md5: 80828a13fa2615d61d526e0a8edb095c
       size: 863
+  get_features:
+    cmd: python src/features.py --config=params.yaml
+    deps:
+    - path: src/features.py
+      hash: md5
+      md5: fe4d096b4d2e1398c1f957e9646503b9
+      size: 2762
+    outs:
+    - path: data/processed/final_features.csv
+      hash: md5
+      md5: 8de3cba3c3bb6066d96aae4a094f0037
+      size: 7178
+  model_training:
+    cmd: python src/model.py --config=params.yaml
+    deps:
+    - path: data/processed/allsong_data.csv
+      hash: md5
+      md5: d9b239ac8dc029ff25b5c004bf777050
+      size: 15991708
+    - path: data/processed/complete_feature.csv
+      hash: md5
+      md5: 51f7b30a67e643ac09adc59566ce8f42
+      size: 6629345
+    - path: data/processed/final_features.csv
+      hash: md5
+      md5: 8de3cba3c3bb6066d96aae4a094f0037
+      size: 7178
+    - path: src/features.py
+      hash: md5
+      md5: fe4d096b4d2e1398c1f957e9646503b9
+      size: 2762
+    - path: src/model.py
+      hash: md5
+      md5: 5e2aafe668e7819f4dd17d8def8cad76
+      size: 3270

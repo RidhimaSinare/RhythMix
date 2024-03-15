@@ -20,9 +20,9 @@ stages:
     - src/model.py
     - data/processed/allsong_data.csv
     - data/processed/complete_feature.csv
-    - data/processed/final_feature.csv
-    outs:
-    - saved_models/model.joblib
+    - data/processed/final_features.csv
+    # outs:
+    # - saved_models/model.joblib
 
   # model_training:
   #   cmd: python application/model.py

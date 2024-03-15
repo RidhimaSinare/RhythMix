@@ -1,10 +1,8 @@
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.feature_extraction.text import TfidfVectorizer
-from textblob import TextBlob
 import argparse
 from get_data import read_params
+from features import get_features
 
 
 def generate_playlist_feature(complete_feature_set, playlist_df):
@@ -55,11 +53,10 @@ def recommend_from_playlist(config_path):
 
     songdf_path = config["data_source"]["s3_source"]
     feature_path = config["data_source"]["feature_source"]
-    playlist_path = config["data_source"]["final_features"]
 
     songDF = pd.read_csv(songdf_path)
     complete_feature_set = pd.read_csv(feature_path)
-    playlistDF_test = pd.read_csv(playlist_path)
+    playlistDF_test = get_features(config_path)
     # Find feature
     complete_feature_set_playlist_vector, complete_feature_set_nonplaylist = generate_playlist_feature(complete_feature_set, playlistDF_test)
     
@@ -75,3 +72,4 @@ if __name__=="__main__":
     parsed_args = args.parse_args()
     top40= recommend_from_playlist(config_path=parsed_args.config)
     print(top40.head())
+    

@@ -1,0 +1,6 @@
+,id,title,first_artist,all_artists,danceability,energy,key,loudness,mode,acousticness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature
+0,4FCNizKAqQ0JDx9ZWDEt1Z,Can't Help Falling in Love,Kacey Musgraves,['Kacey Musgraves'],0.317,0.15,9,-17.433,1,0.951,9.28e-05,0.113,0.228,45.306,168267,3
+1,6lfxq3CG4xtTiEg7opyCyx,Can't Help Falling In Love,Kina Grannis,['Kina Grannis'],0.266,0.0596,0,-18.515,1,0.905,7.07e-05,0.132,0.143,181.74,201933,3
+2,6yIHGmQLJxWAUZ1ZkENemN,Can't Help Falling in Love,Haley Reinhart,['Haley Reinhart'],0.41,0.0485,0,-13.918,1,0.947,0.0,0.108,0.247,137.97,173175,4
+3,7vyLcCRQZAzl21WElrh984,Can't Help Falling in Love,Emma Heesters,['Emma Heesters'],0.404,0.152,0,-9.445,1,0.929,0.0,0.0968,0.348,86.121,134000,3
+4,44AyOl4qVkzS48vBsbNXaC,Can't Help Falling in Love,Elvis Presley,['Elvis Presley'],0.396,0.293,2,-14.062,1,0.941,0.000196,0.105,0.343,100.307,182360,3

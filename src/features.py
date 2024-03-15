@@ -58,6 +58,7 @@ def get_features(config_path):
     # print(config)
     url = config["playlist_url"]
     feature_df = extract(url)
+    feature_df.to_csv('data/processed/final_features.csv')
     return feature_df
 
 
