@@ -1,9 +1,11 @@
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 import argparse
-from get_data import read_params
-from features import get_features
+from src.get_data import read_params
+from src.features import get_features
 
+
+params_path = "D:\wtl_musicreco\params.yaml"
 
 def generate_playlist_feature(complete_feature_set, playlist_df):
     '''
@@ -68,7 +70,7 @@ def recommend_from_playlist(config_path):
 
 if __name__=="__main__":
     args = argparse.ArgumentParser()
-    args.add_argument("--config",default="params.yaml")
+    args.add_argument("--config",default=params_path)
     parsed_args = args.parse_args()
     top40= recommend_from_playlist(config_path=parsed_args.config)
     print(top40.head())
