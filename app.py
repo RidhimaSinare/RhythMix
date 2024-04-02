@@ -1,24 +1,51 @@
 # from application import app
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for
 from src.features import *
 from src.model import *
+import os
+from pymongo import MongoClient
 
-# app = Flask(__name__)
 
+mongo_string = "mongodb+srv://sinareridhima:mongodb17@rhythmix.9xdbw8c.mongodb.net/"
 params_path = "params.yaml"
+webapp_root = "webapp"
 
-# songDF = pd.read_csv("./data/processed/allsong_data.csv")
-# complete_feature_set = pd.read_csv("./data/processed/complete_feature.csv")
+# Connect to MongoDB Atlas
+client = MongoClient(mongo_string)
+db = client['users']
+users_collection = db['users']
 
-# @app.route("/")
-def home():
+static_dir = os.path.join(webapp_root,"static")
+template_dir = os.path.join(webapp_root,"templates")
+
+app = Flask(__name__,static_folder=static_dir,template_folder=template_dir)
+
+
+@app.route('/',methods=['GET','POST'])
+def register():
+
+   if request.method == 'POST':
+      username = request.form["username"]
+      password = request.form['password']
+      confirm = request.form['cpassword']
+
+        # Check if username or email already exists
+      if users_collection.find_one({'username': username}):
+            return 'Username or email already exists!'
+
+        # Insert the new user into the database
+      if password==confirm:
+            users_collection.insert_one({'username': username, 'password': password})
+            print("Registration Successful")
+
+            return redirect(url_for('login'))
+
+   return render_template('register.html')
+
+@app.route("/login")
+def login():
    #render the home page
-   return render_template('home.html')
-
-# @app.route("/about")
-def about():
-   #render the about page
-   return render_template('about.html')
+   return render_template('login.html')
 
 # @app.route('/recommend', methods=['POST'])
 def recommend():
@@ -33,6 +60,8 @@ def recommend():
    for i in range(number_of_recs):
       my_songs.append([str(edm_top40.iloc[i,1]) + ' - '+ '"'+str(edm_top40.iloc[i,4])+'"', "https://open.spotify.com/track/"+ str(edm_top40.iloc[i,-6]).split("/")[-1]])
    print(my_songs)
+
 if __name__=="__main__":
    
-   recommend()
+   
+   app.run(debug=True, host='127.0.0.1',port=5000)

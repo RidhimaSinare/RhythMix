@@ -1,0 +1,22 @@
+
+			<h2>Sign In</h2>
+			<div class="inputBox">
+				<label for="username">Username</label>
+				<input type="text" required="required" >
+				<i></i>
+			</div>
+			<div class="inputBox">
+				<label for="password">Password</label>
+				<input type="password" required="required" >
+				<i></i>
+			</div>
+            
+			<div class="inputBox"> 
+				<label for="cpassword">Confirm Password</label>
+				<input type="password" required="required">
+				<i></i>
+			</div>
+			<div class="links">
+				<!-- <a href="#">Signup</a> -->
+			</div>
+			<center><input type="submit" value="Sign Up"></center>
