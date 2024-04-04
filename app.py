@@ -1,5 +1,5 @@
 # from application import app
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, flash
 from src.features import *
 from src.model import *
 import os
@@ -19,9 +19,9 @@ static_dir = os.path.join(webapp_root,"static")
 template_dir = os.path.join(webapp_root,"templates")
 
 app = Flask(__name__,static_folder=static_dir,template_folder=template_dir)
+app.secret_key = "rhythmix"
 
-
-@app.route('/',methods=['GET','POST'])
+@app.route('/register',methods=['GET','POST'])
 def register():
 
    if request.method == 'POST':
@@ -42,10 +42,28 @@ def register():
 
    return render_template('register.html')
 
-@app.route("/login")
+@app.route("/",methods=['GET','POST'])
 def login():
-   #render the home page
-   return render_template('login.html')
+    if request.method == 'POST':
+        username = request.form['username']
+        password = request.form['password']
+
+        # Check if the username and password match
+        user = users_collection.find_one({'username': username, 'password': password})
+        if user:
+            print("logged in")
+            flash('Login successful.', 'success')
+            return redirect(url_for('home'))
+            # Add any additional logic, such as session management
+        else:
+            flash('Invalid username or password. Please try again.', 'danger')
+
+    return render_template('login.html')
+
+@app.route('/home')
+def home():
+    
+    return render_template("home.html")
 
 # @app.route('/recommend', methods=['POST'])
 def recommend():
@@ -63,5 +81,5 @@ def recommend():
 
 if __name__=="__main__":
    
-   recommend()
-   # app.run(debug=True, host='127.0.0.1',port=5000)
+   # recommend()
+   app.run(debug=True, host='127.0.0.1',port=5000)

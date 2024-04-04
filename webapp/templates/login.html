@@ -180,21 +180,21 @@
 </head>
 <body>
 	<div class="box">
-		<form autocomplete="off">
+		<form action='/' method="POST">
 			<h2>Sign in</h2>
 			<div class="inputBox">
-				<input type="text" required="required">
-				<span>Userame</span>
+                <label for="username">Username</label>
+				<input type="text" id="username" name="username" required >
 				<i></i>
 			</div>
 			<div class="inputBox">
-				<input type="password" required="required">
-				<span>Password</span>
+                <label for="password">Password</label>
+				<input type="password" id="password" name="password" required >
 				<i></i>
 			</div>
 			<div class="links">
 				<a href="#">Forgot Password ?</a>
-				<a href="#">Signup</a>
+				<a href="/register">Signup</a>
 			</div>
 			<input type="submit" value="Login">
 		</form>
