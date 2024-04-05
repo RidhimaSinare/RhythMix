@@ -12,42 +12,83 @@
     background-color: #000;
     color: #fff;
   }
-  
+
   .container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 20px;
     text-align: center;
   }
-  
+
   h1 {
-    color: #0c550c; /* Green */
+    color: #45f3ff; /* Dark Green */
   }
-  
-  p {
-    margin-bottom: 20px;
+
+  label {
+    color: #45f3ff; /* Dark Green */
   }
-  
-  .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0c550c; /* Green */
-    color: #000;
-    text-decoration: none;
+
+  input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #45f3ff; /* Dark Green */
     border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #45f3ff; /* Dark Green */
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     transition: background-color 0.3s ease;
   }
-  
-  .btn:hover {
-    background-color: #006400; /* Dark Green */
+
+  button:hover {
+    background-color: #45f3ff; /* Green */
     color: #fff;
+  }
+
+  .recommendations {
+    margin-top: 20px;
+  }
+
+  h2 {
+    color: #45f3ff; /* Dark Green */
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
   }
 </style>
 </head>
 <body>
   <div class="container">
-    <h1>Welcome to RhythMix</h1>
-    <p>Discover new music tailored just for you.</p>
+    <h1>Welcome to our Music Recommendation App</h1>
+    <form method="POST" action="/home">
+      <label for="url">Enter URL:</label>
+      <input type="text" id="url" name="url" required>
+      <button type="submit">Get Recommendations</button>
+    </form>
+    {% if top5 %}
+    <div class="recommendations">
+      <h2>Top 5 Music Recommendations:</h2>
+      <ul>
+        {% for song in top5 %}
+        <li>{{ song }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
   </div>
 </body>
 </html>
